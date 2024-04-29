@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE8062D2BDE087F00662055 /* LeetCodeLestingBedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8062C2BDE087F00662055 /* LeetCodeLestingBedApp.swift */; };
+		2BE8062F2BDE087F00662055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8062E2BDE087F00662055 /* ContentView.swift */; };
+		2BE806312BDE088000662055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE806302BDE088000662055 /* Assets.xcassets */; };
+		2BE806342BDE088000662055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE806332BDE088000662055 /* Preview Assets.xcassets */; };
+		2BE8063E2BDE088000662055 /* LeetCodeLestingBedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8063D2BDE088000662055 /* LeetCodeLestingBedTests.swift */; };
+		2BE806592BDE08B800662055 /* MinimumDepthBinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806572BDE08AE00662055 /* MinimumDepthBinaryTreeTests.swift */; };
+		2BE8065B2BDE08D600662055 /* MinimumDepthBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8065A2BDE08D600662055 /* MinimumDepthBinaryTree.swift */; };
+		2BE8065E2BDE093C00662055 /* TreeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8065D2BDE093C00662055 /* TreeUtils.swift */; };
+		2BE806612BDE097B00662055 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806602BDE097B00662055 /* TreeNode.swift */; };
+		2BE806632BDE09BB00662055 /* MergeTwoSortedLinkedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806622BDE09BB00662055 /* MergeTwoSortedLinkedLists.swift */; };
+		2BE806652BDE09DE00662055 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806642BDE09DE00662055 /* ListNode.swift */; };
+		2BE806692BDE0A6E00662055 /* ConvertSortedArrayToBalancedBSTSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806682BDE0A6E00662055 /* ConvertSortedArrayToBalancedBSTSolution.swift */; };
+		2BE8066C2BDE0AB300662055 /* ConvertSortedArrayToBalancedBSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8066B2BDE0AB300662055 /* ConvertSortedArrayToBalancedBSTTests.swift */; };
+		2BE8066E2BDE0B8800662055 /* ArrayToTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8066D2BDE0B8800662055 /* ArrayToTreeTests.swift */; };
+		2BE806742BDE152500662055 /* MergeTwoSortedLinkedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806732BDE152500662055 /* MergeTwoSortedLinkedListsTests.swift */; };
+		2BE806762BDE7C9400662055 /* OddEvenList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806752BDE7C9400662055 /* OddEvenList.swift */; };
+		2BE806782BDE809800662055 /* OddEvenListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806772BDE809800662055 /* OddEvenListTests.swift */; };
+		2BE8067A2BDE82E300662055 /* ListNode+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806792BDE82E300662055 /* ListNode+Utils.swift */; };
+		2BE8067C2BDE8CBF00662055 /* PlusOneLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8067B2BDE8CBF00662055 /* PlusOneLinkedList.swift */; };
+		2BE8067E2BDE968200662055 /* PlusOneLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8067D2BDE968200662055 /* PlusOneLinkedListTests.swift */; };
+		2BE806812BDE978D00662055 /* ListNode+UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE806802BDE978D00662055 /* ListNode+UtilsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE8063A2BDE088000662055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE806212BDE087F00662055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE806282BDE087F00662055;
+			remoteInfo = LeetCodeLestingBed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE806292BDE087F00662055 /* LeetCodeTestingBed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeTestingBed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE8062C2BDE087F00662055 /* LeetCodeLestingBedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeLestingBedApp.swift; sourceTree = "<group>"; };
+		2BE8062E2BDE087F00662055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BE806302BDE088000662055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE806332BDE088000662055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BE806392BDE088000662055 /* LeetCodeTestingBedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeTestingBedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE8063D2BDE088000662055 /* LeetCodeLestingBedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeLestingBedTests.swift; sourceTree = "<group>"; };
+		2BE806572BDE08AE00662055 /* MinimumDepthBinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDepthBinaryTreeTests.swift; sourceTree = "<group>"; };
+		2BE8065A2BDE08D600662055 /* MinimumDepthBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumDepthBinaryTree.swift; sourceTree = "<group>"; };
+		2BE8065D2BDE093C00662055 /* TreeUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeUtils.swift; sourceTree = "<group>"; };
+		2BE806602BDE097B00662055 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		2BE806622BDE09BB00662055 /* MergeTwoSortedLinkedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MergeTwoSortedLinkedLists.swift; path = ../Probelms/MergeTwoSortedLinkedLists.swift; sourceTree = "<group>"; };
+		2BE806642BDE09DE00662055 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		2BE806682BDE0A6E00662055 /* ConvertSortedArrayToBalancedBSTSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBalancedBSTSolution.swift; sourceTree = "<group>"; };
+		2BE8066B2BDE0AB300662055 /* ConvertSortedArrayToBalancedBSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertSortedArrayToBalancedBSTTests.swift; sourceTree = "<group>"; };
+		2BE8066D2BDE0B8800662055 /* ArrayToTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayToTreeTests.swift; sourceTree = "<group>"; };
+		2BE806732BDE152500662055 /* MergeTwoSortedLinkedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLinkedListsTests.swift; sourceTree = "<group>"; };
+		2BE806752BDE7C9400662055 /* OddEvenList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenList.swift; sourceTree = "<group>"; };
+		2BE806772BDE809800662055 /* OddEvenListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddEvenListTests.swift; sourceTree = "<group>"; };
+		2BE806792BDE82E300662055 /* ListNode+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListNode+Utils.swift"; sourceTree = "<group>"; };
+		2BE8067B2BDE8CBF00662055 /* PlusOneLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneLinkedList.swift; sourceTree = "<group>"; };
+		2BE8067D2BDE968200662055 /* PlusOneLinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneLinkedListTests.swift; sourceTree = "<group>"; };
+		2BE806802BDE978D00662055 /* ListNode+UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListNode+UtilsTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE806262BDE087F00662055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE806362BDE088000662055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE806202BDE087F00662055 = {
+			isa = PBXGroup;
+			children = (
+				2BE8062B2BDE087F00662055 /* LeetCodeTestingBed */,
+				2BE8063C2BDE088000662055 /* LeetCodeTestingBedTests */,
+				2BE8062A2BDE087F00662055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE8062A2BDE087F00662055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806292BDE087F00662055 /* LeetCodeTestingBed.app */,
+				2BE806392BDE088000662055 /* LeetCodeTestingBedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE8062B2BDE087F00662055 /* LeetCodeTestingBed */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8065F2BDE096F00662055 /* Model */,
+				2BE8065C2BDE091D00662055 /* Util */,
+				2BE806672BDE0A5A00662055 /* LinkedLists */,
+				2BE806662BDE0A4900662055 /* Trees */,
+				2BE806712BDE135E00662055 /* App */,
+			);
+			path = LeetCodeTestingBed;
+			sourceTree = "<group>";
+		};
+		2BE806322BDE088000662055 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806332BDE088000662055 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BE8063C2BDE088000662055 /* LeetCodeTestingBedTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806722BDE14DB00662055 /* LinkedLists */,
+				2BE8066A2BDE0AA500662055 /* Trees */,
+				2BE8063D2BDE088000662055 /* LeetCodeLestingBedTests.swift */,
+			);
+			path = LeetCodeTestingBedTests;
+			sourceTree = "<group>";
+		};
+		2BE8065C2BDE091D00662055 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8065D2BDE093C00662055 /* TreeUtils.swift */,
+				2BE806792BDE82E300662055 /* ListNode+Utils.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2BE8065F2BDE096F00662055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806602BDE097B00662055 /* TreeNode.swift */,
+				2BE806642BDE09DE00662055 /* ListNode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BE806662BDE0A4900662055 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8065A2BDE08D600662055 /* MinimumDepthBinaryTree.swift */,
+				2BE806682BDE0A6E00662055 /* ConvertSortedArrayToBalancedBSTSolution.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		2BE806672BDE0A5A00662055 /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806622BDE09BB00662055 /* MergeTwoSortedLinkedLists.swift */,
+				2BE806752BDE7C9400662055 /* OddEvenList.swift */,
+				2BE8067B2BDE8CBF00662055 /* PlusOneLinkedList.swift */,
+			);
+			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		2BE8066A2BDE0AA500662055 /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806572BDE08AE00662055 /* MinimumDepthBinaryTreeTests.swift */,
+				2BE8066B2BDE0AB300662055 /* ConvertSortedArrayToBalancedBSTTests.swift */,
+				2BE8066D2BDE0B8800662055 /* ArrayToTreeTests.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		2BE806712BDE135E00662055 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806322BDE088000662055 /* Preview Content */,
+				2BE8062C2BDE087F00662055 /* LeetCodeLestingBedApp.swift */,
+				2BE8062E2BDE087F00662055 /* ContentView.swift */,
+				2BE806302BDE088000662055 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2BE806722BDE14DB00662055 /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8067F2BDE977200662055 /* Util */,
+				2BE806732BDE152500662055 /* MergeTwoSortedLinkedListsTests.swift */,
+				2BE806772BDE809800662055 /* OddEvenListTests.swift */,
+				2BE8067D2BDE968200662055 /* PlusOneLinkedListTests.swift */,
+			);
+			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		2BE8067F2BDE977200662055 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2BE806802BDE978D00662055 /* ListNode+UtilsTests.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE806282BDE087F00662055 /* LeetCodeTestingBed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE8064D2BDE088000662055 /* Build configuration list for PBXNativeTarget "LeetCodeTestingBed" */;
+			buildPhases = (
+				2BE806252BDE087F00662055 /* Sources */,
+				2BE806262BDE087F00662055 /* Frameworks */,
+				2BE806272BDE087F00662055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCodeTestingBed;
+			productName = LeetCodeLestingBed;
+			productReference = 2BE806292BDE087F00662055 /* LeetCodeTestingBed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE806382BDE088000662055 /* LeetCodeTestingBedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE806502BDE088000662055 /* Build configuration list for PBXNativeTarget "LeetCodeTestingBedTests" */;
+			buildPhases = (
+				2BE806352BDE088000662055 /* Sources */,
+				2BE806362BDE088000662055 /* Frameworks */,
+				2BE806372BDE088000662055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE8063B2BDE088000662055 /* PBXTargetDependency */,
+			);
+			name = LeetCodeTestingBedTests;
+			productName = LeetCodeLestingBedTests;
+			productReference = 2BE806392BDE088000662055 /* LeetCodeTestingBedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE806212BDE087F00662055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2BE806282BDE087F00662055 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2BE806382BDE088000662055 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2BE806282BDE087F00662055;
+					};
+				};
+			};
+			buildConfigurationList = 2BE806242BDE087F00662055 /* Build configuration list for PBXProject "LeetCodeTestingBed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE806202BDE087F00662055;
+			productRefGroup = 2BE8062A2BDE087F00662055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE806282BDE087F00662055 /* LeetCodeTestingBed */,
+				2BE806382BDE088000662055 /* LeetCodeTestingBedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE806272BDE087F00662055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE806342BDE088000662055 /* Preview Assets.xcassets in Resources */,
+				2BE806312BDE088000662055 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE806372BDE088000662055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE806252BDE087F00662055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE806652BDE09DE00662055 /* ListNode.swift in Sources */,
+				2BE8065B2BDE08D600662055 /* MinimumDepthBinaryTree.swift in Sources */,
+				2BE8062F2BDE087F00662055 /* ContentView.swift in Sources */,
+				2BE8062D2BDE087F00662055 /* LeetCodeLestingBedApp.swift in Sources */,
+				2BE806692BDE0A6E00662055 /* ConvertSortedArrayToBalancedBSTSolution.swift in Sources */,
+				2BE806632BDE09BB00662055 /* MergeTwoSortedLinkedLists.swift in Sources */,
+				2BE8067C2BDE8CBF00662055 /* PlusOneLinkedList.swift in Sources */,
+				2BE806762BDE7C9400662055 /* OddEvenList.swift in Sources */,
+				2BE806612BDE097B00662055 /* TreeNode.swift in Sources */,
+				2BE8065E2BDE093C00662055 /* TreeUtils.swift in Sources */,
+				2BE8067A2BDE82E300662055 /* ListNode+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE806352BDE088000662055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8067E2BDE968200662055 /* PlusOneLinkedListTests.swift in Sources */,
+				2BE806742BDE152500662055 /* MergeTwoSortedLinkedListsTests.swift in Sources */,
+				2BE806782BDE809800662055 /* OddEvenListTests.swift in Sources */,
+				2BE8063E2BDE088000662055 /* LeetCodeLestingBedTests.swift in Sources */,
+				2BE8066C2BDE0AB300662055 /* ConvertSortedArrayToBalancedBSTTests.swift in Sources */,
+				2BE806812BDE978D00662055 /* ListNode+UtilsTests.swift in Sources */,
+				2BE8066E2BDE0B8800662055 /* ArrayToTreeTests.swift in Sources */,
+				2BE806592BDE08B800662055 /* MinimumDepthBinaryTreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE8063B2BDE088000662055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE806282BDE087F00662055 /* LeetCodeTestingBed */;
+			targetProxy = 2BE8063A2BDE088000662055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BE8064B2BDE088000662055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE8064C2BDE088000662055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE8064E2BDE088000662055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeetCodeTestingBed/App/Preview Content\"";
+				DEVELOPMENT_TEAM = H7MUL7BCTG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otaviokz.LeetCodeLestingBed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE8064F2BDE088000662055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeetCodeTestingBed/App/Preview Content\"";
+				DEVELOPMENT_TEAM = H7MUL7BCTG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otaviokz.LeetCodeLestingBed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BE806512BDE088000662055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7MUL7BCTG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otaviokz.LeetCodeLestingBedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCodeTestingBed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeetCodeTestingBed";
+			};
+			name = Debug;
+		};
+		2BE806522BDE088000662055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H7MUL7BCTG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.otaviokz.LeetCodeLestingBedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetCodeTestingBed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeetCodeTestingBed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE806242BDE087F00662055 /* Build configuration list for PBXProject "LeetCodeTestingBed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8064B2BDE088000662055 /* Debug */,
+				2BE8064C2BDE088000662055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE8064D2BDE088000662055 /* Build configuration list for PBXNativeTarget "LeetCodeTestingBed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8064E2BDE088000662055 /* Debug */,
+				2BE8064F2BDE088000662055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE806502BDE088000662055 /* Build configuration list for PBXNativeTarget "LeetCodeTestingBedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE806512BDE088000662055 /* Debug */,
+				2BE806522BDE088000662055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE806212BDE087F00662055 /* Project object */;
+}
